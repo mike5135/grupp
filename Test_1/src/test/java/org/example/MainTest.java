@@ -13,7 +13,7 @@ public class MainTest {
         // Förväntad array
         int[] expectedArray = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
-        // Testar om den faktiska arrayen är lika med den förväntade arrayen
+        // Testar om den actualArray arrayen är lika med den expectedArray arrayen
         assertArrayEquals(expectedArray, actualArray, "Arrayen är inte som förväntat!");
     }
 }
